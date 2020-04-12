@@ -1,3 +1,5 @@
 import '../styles/styles.css'
 
-//alert("Coders rule.")
+if (module.hot) {
+    module.hot.accept()
+}
